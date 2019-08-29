@@ -1,7 +1,5 @@
 # Kayak
 
-- Preparing the arduino IDE: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/    
-
 - Connectivity from RFM95W to ESP32
 
 	GND -> GND  
@@ -17,7 +15,9 @@
 	
 	![alt text](https://github.com/haorfani/Kayak/blob/master/esp32lora.jpg)
 	
+- Preparing the arduino IDE: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/   
 
+- Add lmic library https://github.com/matthijskooijman/arduino-lmic
 
 - Saving a log file with nodeJS
 
