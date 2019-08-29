@@ -14,17 +14,22 @@
 	DIO1 -> 21  
 	DIO0 -> 2  
 	3.3V -> 3.3V   
+	
+	![alt text](https://github.com/haorfani/Kayak/blob/master/esp32lora.jpg)
+	
+
 
 - Saving a log file with nodeJS
 
 	1. First you need to download and install nodeJS to your computer https://nodejs.org/en/download/
-	2. mkdir log
-	3. cd log
-	4. npm init
-	5. npm install --save ttn
-	6. npm install json2csv
+	2. $ mkdir log
+	3. $ cd log
+	4. $ npm init
+	5. $ npm install --save ttn
+	6. $ npm install json2csv
 	7. You copy index.js file from github to log
 
-	You run it with "node ." and when then you will be able to see a file with SF and BW with a timestamp
+	You run it with $ node .
+	and when then you will be able to see a file with SF and BW with a timestamp
 	 
 	Note: If you want to modify nodeJS there is an example here https://www.thethingsnetwork.org/docs/applications/nodejs/quick-start.html and the API is located here https://www.thethingsnetwork.org/docs/applications/nodejs/api.html
